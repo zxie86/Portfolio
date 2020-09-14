@@ -1,0 +1,128 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+h2{
+    font-size:25px;
+    padding-bottom: 20px;
+}
+h3{
+    font-weight: bolder;
+}
+h4{
+padding-bottom: 10px;
+}
+hr{
+    border-top:2px solid black;
+    
+}
+.row{
+    padding-bottom:20px;
+    padding-top:10px;
+}
+.intro{
+    font-size:55px;
+    box-sizing:border-box;
+    min-width:900px;
+    font-weight: bold;
+    padding-top: 100px;
+    position: absolute;
+    z-index: 1000;
+    top: 200px;
+    left: 200px;
+    color:white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    
+}
+.container-fluid {
+padding-top: 10px;
+padding-bottom: 20px;
+padding-left:70px;
+padding-right:70px;
+}
+.navbar {
+padding-top: 5px; 
+padding-bottom: 5px;
+border: 0;
+border-radius: 0;
+margin-bottom: 0;
+font-size: 20px;
+letter-spacing: 2px;
+
+}
+input{
+    width:40%;
+    margin:20px;
+}
+
+.panel-title a {
+    color:black;
+    font-weight: 600;
+}
+a:hover{
+    color: rgb(59, 28, 173);
+}
+.parallax-banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),url("../pic2.jpg");
+    /* Set a specific height */
+    min-height: 600px; 
+    width:100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.5; */
+    
+}
+
+
+#home{
+    text-align: center;
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-blend-mode: lighten;
+      
+    
+}
+
+#experience{
+    color:black; 
+    padding-top:20px;
+}
+#skill{
+    color:black;   
+    padding-top:20px;
+    padding-bottom: 30px;
+}
+
+#contact{
+    background-color: rgb(245, 243, 243);
+    padding-top:30px;
+}
+#name{
+    color:white;
+    font-size: 25px;
+    font-weight:300;
+    font-family:serif;
+}
+#typing{
+    position: relative;
+}
+#typing::after{
+    content: '';
+    border-right: 3px solid black;
+    animation: blink 0.5s linear infinite ;
+    height: 3%;
+}
+@keyframes blink{
+    10% {opacity: 1;}
+    100% {opacity: 0;}
+}
+.emptyspace {
+    height:50px;
+}

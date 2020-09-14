@@ -2,6 +2,7 @@ var count;
 var index;
 var letter = "";
 const text = ' at Western University ';
+const text = ' Computer Science Student ';
 index = 0;
 (function type(){
     if(index < text.length){
