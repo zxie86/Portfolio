@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Kelly Xie| CS student at Western</title>
+    <title>Kelly Xie | CS student at Western</title>
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -17,12 +17,19 @@
     <!--navigation bar-->
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
-            <div class="navbar-header navbar-left">
-                <ul class="nav navbar-nav ">
-                    <li><a id="name">Zhiqi Kelly Xie</a></li> 
+            <div class="navbar-header ">
+                <ul class="nav navbar-left">
+                    <li><a id="name" href="#">Zhiqi Kelly Xie</a></li> 
                 </ul>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>  
+                    <span class="icon-bar"></span>                      
+                  </button>
             </div>
-            <div class="navbar-header navbar-right">
+            
+            <div class="navbar-header navbar-right collapse navbar-collapse"  id="myNavbar">
                 <ul class="nav navbar-nav ">
                     <li><a href="#home">Home</a></li> 
                     <li><a href="#experience">Experience</a></li>
@@ -41,89 +48,98 @@
                     <div id ='typing'></div>
                 </div>
             
-            <script src="web.js"></script>
+                <script src="web.js"></script>
             </div>
             <div class="parallax-banner" ></div>
         </div>
     
         <!--second container-->
         <div class = 'container-fluid '>
-        
-            <div class = "row"  id = "experience" >
-                    <div class = "col-sm-3"><h2> EXPERIENCE</h2></div>
-                    <div class = "col-sm-9">
-                        <h3> Software Developer Intern </h3>                                         
-                        <h4> TC Energy | Calgary, AB | 2021.05-current</h4> 
-                        <ul>
-                            <li>Created a self-serve serverless cross-platform responsive application, reducing the wait time to update the application data and Operational Support required by 100% using Angular, DynamoDB, API Gateway, AWS Lambda, Material UI. </li>
-                        </ul> 
-
-                        <h3> Web Developer </h3>                                         
-                        <h4> Western University | London, ON | 2020.10-2021.05</h4> 
-                        <ul>
-                            <li>Implemented a research website for the Faculty of Science using Cascade CMS.</li>
-                        </ul> 
-
-                        <h3> Software Developer Intern </h3>                                         
-                        <h4> WeITPower Corporation | Toronto, ON | 2020.05-2020.08</h4> 
-                        <ul>
-                            <li>Developed a perpetual calendar using HTML, CSS, JavaScript, Bootstrap, Photoshop, and Webpack. </li>
-                        </ul>                            
-        
-                    </div>
-            </div>
-        <hr>
-        
-        <div class = "row" id = "skill">
+            <div class = "row" id = "skill">
                 <div class = "col-sm-3"><h2>SKILLS</h2></div>
                 <div class = "col-sm-9">
                     <ol>
                         <li>Microsoft Azure AI 900 Certified Developer
-                        <li>Experienced in Front-End Web development: Angular, HTML, CSS, JavaScript, Bootstrap, React, Webpack, and Git. </li>
+                        <li>Experienced in Front-End Web development: Angular, HTML, CSS, JavaScript, Bootstrap, and Git. </li>
                         <li>Experienced in Agile development: participated in scrum and used Azure DevOps to track work items.</li>
+                        <li>Demo: <a href="http://publish.uwo.ca/~zxie86/business/index.html" target="_blank">School web assignment</a>.</li>
                     </ol>
                 </div>
         </div>
+
         <hr>
+
+        <div class = "row"  id = "experience" >
+                <div class = "col-sm-3"><h2> EXPERIENCE</h2></div>
+                <div class = "col-sm-9">
+                    <h3> TC Energy  </h3>                                         
+                    <h4> Software Developer Intern | Calgary, AB | 2021.05 - 2022.08</h4> 
+                    <ol>
+                        <li>Reduced the application data update processing time and operational support required by 100% by creating a self-serve serverless cross-platform responsive application using Angular, DynamoDB, API Gateway, AWS Lambda, Material UI.  </li>
+                        <li>Built an intelligent meeting management bot that responds to meeting invitations automatically according to users’ schedules using Power Automate. The smart bot can accept or propose a new time when there is a conflict for meetings on its own logic.</li>
+                        <li>Worked as a business analyst and delivered a custom application under budget by communicating between the business and the developer, performing user acceptance testing and documenting the results. </li>
+                    </ol> 
+
+                    <h3> Google Summer of Code  </h3>                                         
+                    <h4> Open Source Developer | Calgary, AB | 2022.03 - 2022.09</h4> 
+                    <ol>
+                        <li>Implemented an <a href="https://summerofcode.withgoogle.com/programs/2022/projects/axdeCi5w" target="_blank">Excel adapter</a> that allows to map Excel data into the schema of Polypheny-DB, an adaptive database system using Java. <a href="https://github.com/polypheny/Polypheny-DB/pull/418" target="_blank">Pull request</a>.</li>
+                        <li>Enhanced the UI by adding a dropdown menu with time interval options and adjusted the backend API using Angular and Java for the application proposal. <a href="https://github.com/polypheny/Polypheny-DB/issues/401" target="_blank">Issue</a>, <a href="https://github.com/polypheny/Polypheny-UI/pull/71" target="_blank">PR-UI</a>, <a href="https://github.com/polypheny/Polypheny-DB/pull/409" target="_blank">PR-DB</a>.</li>
+                    </ol>
+
+                    <h3> Western University  </h3>                                         
+                    <h4> Web Developer | London, ON | 2020.10 - 2021.05</h4> 
+                    <ol>
+                        <li>Implemented a research <a href="https://publish.uwo.ca/~rhhudson/" target="_blank">website</a> for the Faculty of Science using Cascade CMS.</li>
+                    </ol>                            
+    
+                </div>
+        </div>
+
+        <hr>
+       
         <div class = "row">
             <div class = "col-sm-3"><h2>EDUCATION</h2></div>
             <div class = "col-sm-9">
                     <h3> Western University</h3>                     
-                    <h4>  Bachelor of Science – Computer Science | 2018.09-2022.04</h4>
+                    <h4>  Bachelor of Science – Major in <b>Computer Science</b> | 2018.09 - 2023.05</h4>
                     <ul>
-                        <li> Courses: Python, Java, Data Structure & Algorithms, Operating System, Databases, Software Engineering, Data Analytics (Excel VBA), Accounting and Business Analysis</li>
+                        <li> Courses: Python, Java, C++, Data Structure & Algorithms, Operating System, Databases, Software Engineering, Network, Data Analytics, Accounting and Business Analysis</li>
                         <li> Award: Dean's Honour List, Western Scholarship of Excellence</li>
                     </ul>
             </div>
         </div>
+
         <hr>
+
         <div class = "row" id="project" >
             <div class = "col-sm-3"><h2>PROJECT</h2></div>
             <div class = "col-sm-9">
             <div class = "panel-group" id="accordion">
+                <div class = "panel panel-default">
+                    <div class="panel-heading">
+                        <h5 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#project1">MemorWe App Design</a>
+                        </h5>
+                    </div>
+                    <div id="project1" class="panel-collapse collapse in">
+                        <div class="panel-body">Designed an app using Sketch for seniors to recognize their family members through a game in order to slow down the worsening of dementia symptoms at the 12-hour SheHacks Hackathon.  <a href="https://devpost.com/software/memorwe" target="_blank">Click here</a></div> 
+
+                    </div>
+                </div>
                     <div class = "panel panel-default">
                         <div class="panel-heading">
                             <h5 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#project1">Temperature Converter</a>
+                                <a data-toggle="collapse" data-parent="#accordion" href="#project2">Temperature Converter</a>
                             </h5>
                         </div>
-                        <div id="project1" class="panel-collapse collapse in">
-                            <div class="panel-body">Created a temperature converter using React to convert the temperature between Fahrenheit and Celsius, reducing converter search time when baking. 
+                        <div id="project2" class="panel-collapse collapse collapse">
+                            <div class="panel-body">Created a temperature converter using React to convert the temperature between Fahrenheit and Celsius.
                                     <a href="http://publish.uwo.ca/~zxie86/temperatureConverter/index.html" target="_blank">Click here</a>
                             </div>
                         </div>
                     </div>
-                    <div class = "panel panel-default">
-                            <div class="panel-heading">
-                                <h5 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#project2">MemorWe App Design</a>
-                                </h5>
-                            </div>
-                            <div id="project2" class="panel-collapse collapse collapse">
-                                <div class="panel-body">Designed an app using Sketch for seniors to recognize their family members through a game in order to slow down the worsening of dementia symptoms at the 12-hour SheHacks Hackathon.  <a href="https://devpost.com/software/memorwe" target="_blank">Click here</a></div> 
-
-                            </div>
-                    </div>
+                    
                     <div class = "panel panel-default">
                             <div class="panel-heading">
                                 <h5 class="panel-title">
@@ -136,7 +152,6 @@
                                 </div>
                             </div>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -151,16 +166,16 @@
                     <div class="col-sm-4"> 
                         <div><a href="Zhiqi Xie resume.pdf" target="_blank">Resume</a></div>
                         <a href="mailto:zxie86@uwo.ca">zxie86@uwo.ca</a>
-                    </div> 
-                    <div class="col-sm-8"> <a href="https://www.linkedin.com/in/kellyzhiqixie/" target="_blank"><i class="fa fa-linkedin-square" style="font-size:36px"></i></a></i>
+                        <br>
+                        <br>
+                        <a href="https://www.linkedin.com/in/kellyzhiqixie/" target="_blank"><i class="fa fa-linkedin-square" style="font-size:36px"></i></a></i>
 
                     <a href="https://github.com/zxie86" target="_blank"><i class="fa fa-github" style="font-size:36px"></i></a>
-
                     </div> 
                 </div>
                 <div class="emptyspace"></div>
                
-                    <div><h3>ZHIQI XIE &copy; 2021</h3></div>
+                    <div style="text-align: center;"><h3>ZHIQI XIE &copy; 2021</h3></div>
                
             
             </div>
